@@ -1,5 +1,9 @@
 const dadosVendas = {
     "vendas" : [
+        { "vendedor": "Jailson Sena", "valor": 125.75 },
+        { "vendedor": "Jailson Sena", "valor": 520.85 },
+        { "vendedor": "Jailson Sena", "valor": 350.80 },
+
         { "vendedor": "João Silva", "valor": 1200.50 },
         { "vendedor": "João Silva", "valor": 950.75 },
         { "vendedor": "João Silva", "valor": 1800.00 },
@@ -29,8 +33,6 @@ const dadosVendas = {
         { "vendedor": "Carlos Oliveira", "valor": 300.40 },
         { "vendedor": "Carlos Oliveira", "valor": 500.00 },
         { "vendedor": "Carlos Oliveira", "valor": 125.75 },
-
-        { "vendedor": "Jailson Sena", "valor": 125.75 },
         
         { "vendedor": "Ana Lima", "valor": 1000.00 },
         { "vendedor": "Ana Lima", "valor": 1100.50 },
