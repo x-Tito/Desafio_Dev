@@ -80,7 +80,7 @@ totalvendas[nomeVendedor].totalComissao += totalComissao;
 }
 
 console.log("Total de Vendas e Comissão:")
-console.log("-------------------------------------")
+console.log('-'.repeat(40))
 
 for(const vendedor in totalvendas){
     const dados = totalvendas[vendedor];
@@ -91,6 +91,6 @@ for(const vendedor in totalvendas){
     console.log(`Vendedor: ${vendedor}`);
     console.log(`Vendas Totais: ${vendasReal}`);
     console.log(`Total Comissão: ${comissaoReal}`);
-    console.log("------------------------------------")
+    console.log('-'.repeat(40))
 
 }
